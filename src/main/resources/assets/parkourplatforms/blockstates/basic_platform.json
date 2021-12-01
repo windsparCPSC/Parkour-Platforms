@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "parkourplatforms:block/basic_platform" }
+  }
+}

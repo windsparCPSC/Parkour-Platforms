@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "down": "parkourplatforms:block/basic_platform_top",
+    "up": "parkourplatforms:block/basic_platform_top",
+    "north": "parkourplatforms:block/basic_platform_sides",
+    "south": "parkourplatforms:block/basic_platform_sides",
+    "west": "parkourplatforms:block/basic_platform_sides",
+    "east": "parkourplatforms:block/basic_platform_sides"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 1, 16 ],
+      "faces": {
+        "down":  { "texture": "#down", "cullface": "down" },
+        "up":    { "texture": "#up", "cullface": "up" },
+        "north": { "texture": "#north", "cullface": "north" },
+        "south": { "texture": "#south", "cullface": "south" },
+        "west":  { "texture": "#west", "cullface": "west" },
+        "east":  { "texture": "#east", "cullface": "east" }
+      }
+    }
+  ]
+}
